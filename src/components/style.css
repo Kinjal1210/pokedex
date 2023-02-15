@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-container {
+    background-color: #F9F9F9;
+}
+
+.pokeball-image {
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    text-align: center;
+}
+.filters-container {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+label {
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+select {
+    margin-left: 5px;
+    background-color: #F9F9F9;
+    border: 1px solid #2E2E2E;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+/* Card styling */
+.pokemon-tile-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F9F9F9;
+    padding: 2rem;
+}
+
+.pokemon-tile {
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+    border: 2px solid #2E2E2E;
+    text-align: center;
+    width: 25%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.pokemon-img {
+    border: 1px solid #2E2E2E;
+    border-radius: 5rem;
+    background-color: #F2F2F2;
+    filter: contrast(75%) ;
+    filter: drop-shadow(0 0 .25rem #2E2E2E);
+}
+
+.poke-name {
+    background-color: #F2F2F2;
+    color: #2E2E2E;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+ol {
+    list-style: none;
+}
+
+.p-span-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+span{
+    border: 1px solid #2E2E2E;
+    width: 25%;
+    border-radius: 1rem;
+    filter: contrast(75%) ;
+    filter: drop-shadow(0 0 .25rem #2E2E2E);
+    background-color: #F2F2F2;
+    color: #2E2E2E;
+    font-weight: bold;
+}
